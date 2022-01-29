@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+    background-color:rgb(255, 182, 122);
+    font-family: 'Josefin Sans', sans-serif;
+    height:100vh;
+    transition: transform 0.3s ease-in;
+   
+}
+
+.sidebar nav{
+    padding:45px;
+}
+
+.devpic{
+    padding: 0 33px;
+}
+
+.sidebar nav li{
+    list-style: none ;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    padding: 23px;
+}
+   
+
+.main{
+    background-color:rgb(140, 228, 240);
+    width: 88vw;
+    padding: 0 43px;
+}
+
+.container{
+    display:flex;
+} 
+
+.infoContainer{
+    /*background-color:red;*/
+    height:60vh;
+    width:80vw;
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: auto;
+
+}
+
+.devinfo{
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hello{
+    font-size: 50px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.about{
+    font-size: 30px;
+}
+
+
+
+.moreabout{
+    font-size: 20px;
+    margin-top: 23px;
+}
+
+.buttons{
+  margin-top: 40px ;
+  font-size: 10px;
+  margin: 5px 0;
+  padding: 10px 5px;
+}
+
+.btn-sm{
+    font-size: 10px;
+    margin: 5px 0;
+    padding: 10px 5px;
+}
+
+.btn{
+    padding: 14px;
+    border-radius: 14pc;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color:rgb(84, 123, 240);
+    color: white;
+}
+
+
+.devpic img{
+    width:369 px;
+
+}
+
+.contactform {
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 50px;
+  padding: 0 34px;
+}
+
+.contactform h1{
+    padding: 12px 0;
+}
+
+.contactform  form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+
+.contactform form div input{
+    width: 10cm;
+    border-radius: 5px;
+    margin: 6px 0 0;
+    padding: 5px;
+}
+
+#emailHelp{
+    font-size: 13px;
+    color: red;
+    margin: 0 6px;
+    font-weight: bold;
+    padding: 3px 0 0;
+}
+
+#form-check{
+  flex-direction: row;
+  width: 100px;
+    margin: 3px 0;
+
+}
+
+#form-check-input{
+  width: 10px;
+  margin: 3px;
+}
+
+.hobbiesitem {
+  margin: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  flex-wrap: auto;
+  padding: 5px;
+  float: left;
+  width: 50%;
+  padding: 5px;
+  content: "";
+  clear: both;
+  display: table;
+  padding-bottom: -25px;
+}
+
+.hobbiesitem  h1{
+
+}
+
+.hobbiesitem  p1{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+  flex-direction: row;
+}
+
+.skillcontainer{
+    padding: 0px  33px;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 2px;
+}
+.skillitem{
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+}
+
+
+.skill{
+    width: 200px;
+    height: 10px;
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+.hundered{
+    width:300px;
+    background-color: red;
+}
+
+
+.fifty{
+    width:90px;
+    background-color: yellow;
+}
+
+.twentyfive{
+    width:75px;
+    background-color: green;
+}
+
+.zero{
+    width: 10px;
+    background-color: blue;
+}
+
+@media (max-width:838px) {
+    .sidebar{
+        transform: translate(-200px,0px);
+        position: absolute;
+    }
+    
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+}
+
+.devpic1{
+    align-content: center;
+    
+    
+}
+
+.devpic2{
+    align-content: center;
+    
+    
+}
+
+.piccontainer{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
